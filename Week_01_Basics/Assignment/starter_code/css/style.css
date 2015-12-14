@@ -1,18 +1,26 @@
 body {
-	background: #ccc;
-	border-top: 3px solid #000;
-	border-bottom: 3px solid #000;
-	font-size: 16px;
-	font-family:  Arial;
+	background: #F2F2F2;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	font-size: 18px;
+	font-family:  Segoe UI;
 	line-height: 24px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	max-width: 842px;
 }
 
 body img {
-	padding: 20px;
+	padding: 5px;
+	border: 1px solid #000;
+	margin: 20px;
 }
 
 nav {
 	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 body h1 {
@@ -20,9 +28,46 @@ body h1 {
 	font-size: 38px;
 }
 
+body h2 {
+	font-size: 32px;
+}
+
+body h3 {
+	letter-spacing: 2.5px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 0 auto;
+    max-width: 780px;
+    padding: 0;
+}
+
+.description {
+	font-family: Times;
+}
+
+#paper {
+	padding: 10px;
+}
+
+#container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
 .strong-emphasis {
 	font-style: italic;
 	font-weight: bold;
+}
+
+.spacing {
+	font-variant: 10px;
 }
 
 #avatar {
