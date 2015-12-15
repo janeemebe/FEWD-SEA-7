@@ -1,22 +1,12 @@
 body {
-<<<<<<< HEAD
 	background: #ccc;
-=======
-	background: #F2F2F2;
-	border-top: 5px solid #000;
-	border-bottom: 5px solid #000;
->>>>>>> origin/master
 	font-size: 18px;
 	font-family:  Segoe UI;
 	line-height: 24px;
 	margin: 0 auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
-<<<<<<< HEAD
 	max-width: 820px;
-=======
-	max-width: 842px;
->>>>>>> origin/master
 }
 
 body img {
@@ -29,7 +19,6 @@ nav {
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
-<<<<<<< HEAD
 	padding: 0;
 }
 
@@ -43,8 +32,6 @@ a:visited {
 
 .currentlink {
 	font-style: italic;
-=======
->>>>>>> origin/master
 }
 
 body h1 {
@@ -59,10 +46,7 @@ body h2 {
 }
 
 body h3 {
-<<<<<<< HEAD
 	font-size: 18px;
-=======
->>>>>>> origin/master
 	letter-spacing: 2.5px;
 }
 
@@ -72,7 +56,6 @@ hr {
     border: 0;
     border-top: 1px solid #000;
     margin: 0 auto;
-<<<<<<< HEAD
     max-width: 700px;
     padding: 0;
 }
@@ -87,34 +70,6 @@ hr {
 	background-color: #F2F2F2;
 	border-top: 5px solid #000;
 	border-bottom: 5px solid #000;
-=======
-    max-width: 780px;
-    padding: 0;
-}
-
-.description {
-	font-family: Times;
-}
-
-#paper {
-	padding: 10px;
-}
-
-#container {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin: 0 auto;
-	background-color: #fff;
-}
-
-.strong-emphasis {
-	font-style: italic;
-	font-weight: bold;
->>>>>>> origin/master
-}
-
-.spacing {
-	font-variant: 10px;
 }
 
 #avatar {
