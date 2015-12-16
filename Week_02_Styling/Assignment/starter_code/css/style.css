@@ -19,12 +19,12 @@ Developer @GA in NYC
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -44,41 +44,100 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-/* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.div-header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
   height: 500px;
-
 }
 
-header {
-
+.div-header button {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5px 35px;
+  border-radius: 5px;
+  border: none;
 }
 
-footer {
+.div-benefits {
+  background-color: #f0efef;
+  height: 450px;
+} 
+.div-benefits p {
+  font-size: 22px;
+}
+.div-quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  height: 300px;
+}
+.div-quote blockquote {
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.div-quote, .divquote blockquote {
+  font-size: 28px;
+  text-align: center;
+}
+.div-sign-up {
+  background-color: #f9e42e;
+  height: 100px;
+}
 
+.div-sign-up button {
+  background-color: #033048;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5px 50px;
+  border-radius: 5px;
+  border: none;
+}
+.div-footer {
+  background-color: #121212;
+  height: 250px;
+  color: #fff;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 100px;
+}
 
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+}
 
+h3 {
+  font-size: 28px;
+}
 
-
+li {
+  list-style: disc inside none;
+}

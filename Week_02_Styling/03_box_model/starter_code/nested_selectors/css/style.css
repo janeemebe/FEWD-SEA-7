@@ -1,0 +1,11 @@
+blockquote {
+	font-style: italic;
+}
+
+blockquote em {
+	font-style: normal;
+}
+
+footer ul {
+	font-weight: bold;
+}
