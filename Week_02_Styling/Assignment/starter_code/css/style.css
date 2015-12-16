@@ -47,10 +47,38 @@ Developer @GA in NYC
 body {
   background-color: #fff;
   color: #000;
-  font-size: 12px;
+  font-size: 28px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
+
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+  height: 50px;
+  padding: 0 60px;
+}
+
+li {
+  list-style: disc inside none;
+  in
+}
+
+ul {
+    margin: 1em 50px;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -59,85 +87,106 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
-.div-header {
+
+#section-1-header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   height: 500px;
+  font-weight: 600;
+  padding: 25px 100px;
 }
 
-.div-header button {
-  background-color: #f9e42e;
-  color: #033048;
-  font-size: 22px;
-  font-weight: 700;
-  padding: 5px 35px;
-  border-radius: 5px;
-  border: none;
+.div-header {
+
 }
 
-.div-benefits {
+#section-2-benefits {
   background-color: #f0efef;
   height: 450px;
 } 
-.div-benefits p {
-  font-size: 22px;
+
+.div-benefits {
+  padding: 70px;
 }
-.div-quote {
+
+#section-3-quote {
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
   color: #fff;
   height: 300px;
 }
-.div-quote blockquote {
-  font-style: italic;
-  margin: 0 auto;
-  max-width: 500px;
+
+.div-quote {
+  padding: 50px 0;
 }
-.div-quote, .divquote blockquote {
-  font-size: 28px;
-  text-align: center;
-}
-.div-sign-up {
+
+#section-4-sign-up {
   background-color: #f9e42e;
   height: 100px;
+}
+
+.div-sign-up {
+  text-align: center;
+  padding: 25px;
+}
+
+#section-5-footer {
+  background-color: #121212;
+  height: 250px;
+}
+
+.div-footer {
+  padding: 40px;
+  text-align: center;
+  line-height: 60px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.no-emphasis {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+.semi-bold {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.strong-emphasis {
+  font-weight: 800
+}
+
+.div-header button {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 20px;
+}
+
+.div-header h1 {
+  color: #fff;
 }
 
 .div-sign-up button {
   background-color: #033048;
   color: #fff;
-  font-size: 22px;
-  font-weight: 700;
-  padding: 5px 50px;
-  border-radius: 5px;
-  border: none;
-}
-.div-footer {
-  background-color: #121212;
-  height: 250px;
-  color: #fff;
+  font-size: 18px;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-h1 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 36px;
-  font-family: 'Open Sans', sans-serif;
-  padding: 20px 100px;
+.div-footer h1 {
+  color: #f9e42e;
 }
 
-h2 {
-  text-align: center;
-  color: #fff;
-  font-size: 36px;
+.copyright {
+  font-size: 12px;
+  color: white;
 }
 
 h3 {
   font-size: 28px;
 }
 
-li {
-  list-style: disc inside none;
-}
