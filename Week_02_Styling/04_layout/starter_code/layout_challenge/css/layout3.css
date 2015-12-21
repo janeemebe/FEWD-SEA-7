@@ -1,0 +1,37 @@
+header, footer {
+	height: 150px;
+	margin: 20px 0;
+}
+
+.row-1-left {
+	height: 250px;
+	width: 374px;
+	float: left;
+}
+
+.row-1-right {
+	height: 250px;
+	width: 374px;
+	float: right;
+}
+
+.row-2-left {
+	height: 100px;
+	width: 242px;
+	float: left;
+	margin-top: 20px;
+}
+
+.row-2-middle {
+	height: 100px;
+	width: 242px;
+	float: left;
+	margin: 20px 20px 0 20px;
+}
+
+.row-2-right {
+	height: 100px;
+	width: 242px;
+	float: left;
+	margin-top: 20px;
+}

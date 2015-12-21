@@ -1,0 +1,101 @@
+header {
+	width: 200px;
+	height: 100px;
+	margin: 20px 0;
+	float: left;
+}
+
+.nav-1 {
+	float: left;
+	height: 30px;
+	width: 80px;
+	margin: 50px 10px 0 128px;
+}
+
+.nav-2 { 
+	float: left;
+	height: 30px;
+	width: 80px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-3 { 
+	float: left;
+	height: 30px;
+	width: 80px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-4 { 
+	float: left;
+	height: 30px;
+	width: 80px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-5 { 
+	float: left;
+	height: 30px;
+	width: 80px;
+	margin: 50px 0 0 0;
+}
+
+
+sidebar {
+	width: 128px;
+	height: 490px;
+	float: left;
+	margin-right: 20px;
+}
+
+.row-2-section-1 {
+	width: 620px;
+	height: 100px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.row-3-section-1 {
+	width: 460px;
+	height: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.row-3-section-2 {
+	width: 140px;
+	height: 200px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.row-4-section-1 {
+	width: 140px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+.row-4-section-2 {
+	width: 140px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.row-4-section-3 {
+	width: 140px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+.row-4-section-4 {
+	width: 140px;
+	height: 150px;
+	float: left;
+}
+
+footer {
+	height: 150px;
+	margin-top: 20px;
+}

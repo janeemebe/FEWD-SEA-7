@@ -1,0 +1,63 @@
+header {
+	width: 200px;
+	height: 100px;
+	margin: 20px 0;
+	float: left;
+}
+
+footer {
+	height: 150px;
+	margin: 20px 0;
+}
+
+.nav-1 {
+	float: left;
+	height: 40px;
+	width: 110px;
+	margin: 50px 10px 0 98px;
+}
+
+.nav-2 { 
+	float: left;
+	height: 40px;
+	width: 110px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-3 { 
+	float: left;
+	height: 40px;
+	width: 110px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-4 { 
+	float: left;
+	height: 40px;
+	width: 110px;
+	margin: 50px 0 0 0;
+}
+
+.row-2-section {
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.row-3-left {
+	height: 200px;
+	width: 242px;
+	float: left;
+}
+
+.row-3-middle {
+	height: 200px;
+	width: 242px;
+	float: left;
+	margin: 0 20px;
+}
+
+.row-3-right {
+	height: 200px;
+	width: 242px;
+	float: left;
+}

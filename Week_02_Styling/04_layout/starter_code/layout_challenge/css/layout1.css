@@ -1,25 +1,21 @@
-body {
-	width: 614px;
-	margin: 0 auto;
-}
+
 
 header,
 footer {
-	height: 200px;
-	clear: both;
-	margin: 10px 0;
+	height: 150px;
+	margin: 20px 0;
 }
 
 sidebar {
 	float: right;
 	display: block;
-	width: 200px;
+	width: 290px;
 	height: 350px;
 }
 
 section {
 	float: left;
 	height: 350px;
-	width: 400px;
+	width: 458px;
 }
 
