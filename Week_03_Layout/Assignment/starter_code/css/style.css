@@ -19,12 +19,12 @@ Developer @GA in NYC
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -44,37 +44,214 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 28px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
+button {
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+  height: 50px;
+  padding: 0 60px;
+}
+
+li {
+  list-style: disc inside none;
+  text-indent: -1.5em;
+}
+
+nav {
+  background-color: #033048;
+  text-align: right;
+  color: #f9e42e;
+  font-size: 16px;
+  font-weight: 600;
+  height: 80px;
+  padding: 25px 80px 0 0;
+}
+
+nav a {
+  margin: 0 20px 0 0;
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #f9e42e;
+}
+
+sidebar {
+  background-color: blue;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-/* Center the container */
 #container {
-  width: 960px;
-  margin: auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-header {
-
+#section-1-header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 500px;
+  font-weight: 600;
 }
 
-footer {
-
+.div-header {
+  text-align: center;
+  margin: 60px 0 60px;
+  color: #fff;
+  font-size: 36px;
 }
+
+#main {
+  background-color: #f0efef;
+  height: 1400px;
+  padding: 40px 60px;
+}
+
+#articles {
+  float: left;
+  width: 70%;
+  background-color: #f0efef;
+}
+
+#articles h2 {
+  font-weight: 600;
+  font-style: normal;
+  color: #033048;
+}
+
+article a {
+  float: right;
+  margin: 20px 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+article p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+article p:first-letter {
+  font-size: 40px;
+  display: inline-block;
+}
+
+#side-stuff {
+  float: right;
+  width: 30%;
+  font-size: 20px;
+  color: #033048;
+}
+
+.categories {
+  margin-bottom: 30px;
+}
+
+.about-relaxr {
+  margin-bottom: 30px;
+}
+
+#side-stuff h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#side-stuff a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#side-stuff li {
+  list-style: none;
+  text-indent: 5px
+}
+#main img {
+  width: 95%;
+  margin: 10px 0;
+}
+
+.ad-unit {
+  width: 95%;
+}
+#section-4-sign-up {
+  background-color: #f9e42e;
+  height: 100px;
+}
+
+.div-sign-up {
+  text-align: center;
+  padding: 25px;
+}
+
+#section-5-footer {
+  background-color: #121212;
+  height: 250px;
+}
+
+.div-footer {
+  padding: 40px;
+  text-align: center;
+  line-height: 60px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.semi-bold {
+  font-weight: 600;
+  font-style: normal;
+}
 
+.strong-emphasis {
+  font-weight: 800
+}
 
+.get-it-now button {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 20px;
+}
 
+.div-header h1 {
+  color: #fff;
+  font-size: 38px;
+}
 
+.div-sign-up button {
+  background-color: #033048;
+  color: #fff;
+  font-size: 18px;
+}
+
+.logo-yellow {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.logo-white {
+  color: #fff;
+  font-weight: 800;
+  font-size: 38px;
+  padding: 20px 100px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: white;
+}
