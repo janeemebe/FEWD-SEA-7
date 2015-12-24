@@ -1,0 +1,35 @@
+*{
+	font-family: "Segoe UI", Segoe, "Lucida Grande", Verdana, Arial, Helvetica, san-serif; 
+}
+
+#container {
+	width: 710px;
+	margin: 0 auto;
+}
+
+body {
+}
+
+button {
+	background color: red;
+	border: 1px solid blue;
+}
+
+header {
+	background: url(../images/banner.png);
+	height:200px;
+	width:710px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#section-1-intro
+
+#section-2-dates
+
+#section-3-contact
+
+#section-4-benefits
