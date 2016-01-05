@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta name="WebPartPageExpansion" content="full" />
+  <meta charset="utf-8" />
+  <title>Windows Server 2003 & SQL Server 2005 End of Support</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="css/style11.css" type="text/css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://syndication.microsoft.com/PBL/SitePages/js/MinisiteInit.js"></script>
+  <script type="text/javascript">
+    // Preload configuration
+    $(document).on("mobileinit", function () {
+        $.mobile.autoInitializePage = false;
+        $.mobile.ajaxEnabled = false;
+        $.mobile.pushStateEnabled = false; // Recommended is false, when ajax is disabled
+    });
+  </script>
+  <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript">
+    var partnerName = unescape(getParameterByName('CompanyName'));
+    var partnerEmailAddress = unescape(getParameterByName('EmailID'));
+    var partnerPhoneNumber = unescape(getParameterByName('CompanyPhoneNumber'));
+    var partnerWebsite = unescape(getParameterByName('CompanyURL'));
+    var partnerAddress1 = unescape(getParameterByName('AddressLine1'));
+    var partnerAddress2 = unescape(getParameterByName('AddressLine2'));
+    var partnerCity = unescape(getParameterByName("City"));
+    var partnerState = unescape(getParameterByName("State"));
+    var partnerZip = unescape(getParameterByName("PostalCode"));
+    var partnerTrialURL = unescape(getParameterByName("TrialURL"));
+    var partnerBuyURL = unescape(getParameterByName("BuyURL"));
+  </script>
+</head>
+<body>
+  <div id="rtg-container">
+    <div id="rtg-header">
+      <div class="rtg-header-text">
+        <h2>SQL Server 2005 <br />and Windows Server 2003</h2>
+        <h1>END OF SUPPORT</h1>
+      </div>
+    </div>
+    <div id="rtg-main-content">
+      <div class="rtg-main-1 clearfix">
+        <div class="caution-icon"><img src="images/caution4.png" /></div>
+        <div class="caution-text">If you are not running Windows Server 2012 R2 and SQL Server 2014 yet, it's time to consider upgrading to take advantage of groundbreaking improvements in performance.</div>
+      </div>
+      <div class="rtg-main-2">
+        <p>Support has either ended or will end soon for the following products, which means no more security updates, increased maintenance costs, and potential compliance concerns.</p>
+      </div>
+      <div class="rtg-main-3 clearfix">
+        <div class="col-box-img"><img src="images/jul-14.png" /></div>
+        <div class="col-box-text">Windows Server 2003 extended support ended on July 14, 2015.
+        </div>
+        <div class="col-box-img"><img src="images/apr-12.png" /></div>
+        <div class="col-box-text">SQL Server 2005 extended support ends on April 12, 2016.
+        </div>
+        <div class="col-box-img"><img src="images/jul-9.png" /></div>
+        <div class="col-box-text">SQL Server 2008 mainstream support ended on July 8, 2014, and is in extended support until July 9, 2019.</div>
+      </div>
+    </div>
+    <div id="pre-cta">
+      <div class="pre-cta-content clearfix">
+        <div class="pre-cta-text">
+          While these dates may seem distant, now is the time to design a migration plan. We can help you move your applications and workloads that currently rely on Windows Server 2003 and SQL Server 2005 or 2008 to Windows Server 2012 R2 and SQL Server 2014 or Microsoft Azure SQL Database.
+        </div>
+        <div class="pre-cta-icon">
+          <img src="images/migration.png" />
+        </div>
+      </div>
+    </div>
+    <div id="sticky-anchor"></div>
+    <div id="rtg-cta">
+      <div class="sticky-bar fullwidth">
+        <div class="cta-content clearfix">
+          <div class="email-cta">
+            <img src="images/email-icon.png" />
+          </div>
+          <div class="email-text">
+            <span class="emphasis">I'd like to set up time with you!</span> <br />
+            <script type="text/javascript">
+              if (partnerEmailAddress) {
+                  document.write('Email me at <a id="cta-link" href="mailto:' + partnerEmailAddress + '">' + partnerEmailAddress + '</a>.');
+                  } else {
+                                    document.write('Contact us for more information.');
+
+                                }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rtg-benefits">
+      <div class="benefits-intro">
+        There is tremendous value available in upgrading to the latest version of SQL Server including:
+      </div>
+      <div class="benefits-container clearfix">
+        <div class="benefit">
+          <div class="benefit-img"><img src="images/performance.png" /></div>
+          <div class="benefit-title">Improved performance</div>
+          <div class="benefit-text">Benchmarks show SQL Server 2014 performs 13x faster than SQL Server 2005 and 5.5x faster than SQL Server 2007*</div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-img"><img src="images/in-memory.png" /></div>
+          <div class="benefit-title">In-memory technologies</div>
+          <div class="benefit-text">Get additional performance gains from in-memory technologies for OLTP, data warehousing, and analytics</div>
+        </div>
+        <div class="benefit clear">
+          <div class="benefit-img"><img src="images/maintenance.png" /></div>
+          <div class="benefit-title">Simplified maintenance</div>
+          <div class="benefit-text">Support includes security patching and maintenance updates, eliminating the expense of custom support agreements</div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-img"><img src="images/availability.png" /></div>
+          <div class="benefit-title">High availability</div>
+          <div class="benefit-text">Rest assured that your mission critical applications are running with high availability and reliability with AlwaysOn</div>
+        </div>
+      </div>
+    </div>
+    <div id="rtg-footer">
+      <h2>Contact us today to learn more.</h2>
+      <div class="partner-info">
+        <script type="text/javascript">
+                  if (partnerName) {
+                      document.write('<span class="emphasis">' + partnerName + '</span>' + '<br />' + '<br />');
+                  }
+                  if (partnerAddress1) {
+                      document.write(partnerAddress1 + '<br />');
+                  }
+                  if (partnerAddress2) {
+                      document.write(partnerAddress2 + '<br />');
+                  }
+                  if (partnerCity) {
+                      document.write(partnerCity + ', ');
+                  }
+                  if (partnerState) {
+                      document.write(partnerState + ' ');
+                  }
+                  if (partnerZip) {
+                      document.write(partnerZip + '<br />');
+                  }
+                  if (partnerPhoneNumber) {
+                      document.write(partnerPhoneNumber);
+                  }
+              </script>
+      </div>
+    </div>
+    <div id="rtg-footnotes">
+      <div class="footnotes-content clearfix">
+        <div class="footnotes-text">
+         *Performance gains based on TPC-E benchmark results published for SQL Server 2014 (<a target="_blank" href="http://www.tpc.org/tpce/results/tpce_result_detail.asp?id=114041401">www.tpc.org/4069</a>) and SQL Server 2005 (<a target="_blank" href="http://www.tpc.org/tpce/results/tpce_result_detail.asp?id=107071201">www.tpc.org/4001</a>) as of October 8, 2014.
+        </div>
+        <div class="footnotes-logo">
+          <img src="images/microsoft-logo.png" />
+        </div>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
+

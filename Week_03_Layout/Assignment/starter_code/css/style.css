@@ -53,27 +53,17 @@ body {
   font-weight: 400;
 }
 
-button {
-  border-radius: 5px;
-  border: none;
-  font-weight: 800;
-  height: 50px;
-  padding: 0 60px;
-}
-
 li {
   list-style: disc inside none;
   text-indent: -1.5em;
 }
 
 nav {
-  background-color: #033048;
   text-align: right;
   color: #f9e42e;
   font-size: 16px;
   font-weight: 600;
-  height: 80px;
-  padding: 25px 80px 0 0;
+  padding: 35px 80px 0 0;
 }
 
 nav a {
@@ -86,9 +76,6 @@ nav a {
   color: #f9e42e;
 }
 
-sidebar {
-  background-color: blue;
-}
 
 /******************************************
 /* LAYOUT
@@ -98,44 +85,34 @@ sidebar {
   margin: 0 auto;
 }
 
-#section-1-header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  height: 500px;
-  font-weight: 600;
-}
-
-.div-header {
+header {
   text-align: center;
-  margin: 60px 0 60px;
   color: #fff;
   font-size: 36px;
+  border: 1px solid black;
+  background-color: #033048;
 }
 
 #main {
   background-color: #f0efef;
-  height: 1400px;
-  padding: 40px 60px;
+  padding: 40px 70px;
 }
 
-#articles {
+.articles {
   float: left;
   width: 70%;
   background-color: #f0efef;
 }
 
-#articles h2 {
+article {
+ margin-bottom: 40px;
+}
+
+article h2 {
   font-weight: 600;
   font-style: normal;
   color: #033048;
-}
-
-article a {
-  float: right;
-  margin: 20px 5px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 20px;
+  display: inline-block;
 }
 
 article p {
@@ -148,9 +125,23 @@ article p:first-letter {
   display: inline-block;
 }
 
-#side-stuff {
+#readmore1, #readmore2 {
+  display: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#main button {
+  margin: 20px;
   float: right;
-  width: 30%;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+}
+
+.side-stuff {
+  float: right;
+  width: 25%;
   font-size: 20px;
   color: #033048;
 }
@@ -163,19 +154,19 @@ article p:first-letter {
   margin-bottom: 30px;
 }
 
-#side-stuff h3 {
+.side-stuff h3 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
-#side-stuff a {
+.side-stuff a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
 }
 
-#side-stuff li {
+.side-stuff li {
   list-style: none;
   text-indent: 5px
 }
@@ -189,7 +180,14 @@ article p:first-letter {
 }
 #section-4-sign-up {
   background-color: #f9e42e;
-  height: 100px;
+}
+
+#section-4-sign-up button {
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+  height: 50px;
+  padding: 0 60px;
 }
 
 .div-sign-up {
@@ -199,11 +197,10 @@ article p:first-letter {
 
 #section-5-footer {
   background-color: #121212;
-  height: 250px;
 }
 
 .div-footer {
-  padding: 40px;
+  padding: 35px;
   text-align: center;
   line-height: 60px;
 }
@@ -249,6 +246,7 @@ article p:first-letter {
   font-weight: 800;
   font-size: 38px;
   padding: 20px 100px;
+  float: left;
 }
 
 .copyright {

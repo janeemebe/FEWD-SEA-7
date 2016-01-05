@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+.slides_container {
+	width: 658px;
+	overflow: hidden;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width: 658px;
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.slides_container a img{
+	display: block;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin: 0 0 0 220px;
+    height: 6px;
+    z-index: 101;
+    margin-top: 15px;
+	text-align:center;
+}
+
+.pagination li {
+	float: left;
+	margin: 0px; 
+	list-style: none;    
+}
+
+.pagination li a {
+	display: block;
+	width: 15px;
+	height: 4px;
+	padding-top: 1px;
+	margin-right: 18px;
+	background-image:url(../images/pagination.png);
+	background-position: 0px 0px;
+	overflow:hidden;
+    outline: none;
+}
+
+.pagination li.current a {
+	background-position: 0 5px;
+}

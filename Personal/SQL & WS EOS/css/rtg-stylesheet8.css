@@ -1,0 +1,142 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#rtg-wrapper {
+	font-family:"Segoe UI", "Segoe Pro", Segoe, "San Serif"; 
+	font-size:14px; 
+	width:710px;
+	margin:0px auto;
+	background-color:#ffffff; 
+}
+
+#rtg-header {
+	padding:22px 26px 15px 26px;
+}
+
+#rtg-mslogo {
+	padding-bottom:20px;
+}
+
+#rtg-herobanner {
+	background: url(../images/banner.png);
+	height:200px;
+	width:710px;
+}
+
+#rtg-title {
+	font-size:24px;
+	font-weight:100;
+	width:350px;
+	color:#ffffff;
+	float: right;
+	padding: 10px;
+}
+
+#rtg-title p {
+	font-size: 14px;
+	color:#ffffff;
+}
+
+.rtg-ws2012 {
+	height:31px;
+	background-color:#d1d3d4;
+	text-align:center;
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.rtg-ws2012 a {
+	color:#0072c6;
+	text-decoration:none;
+}
+
+#rtg-intro {
+	font-size:18px;
+	font-style:italic;
+}
+
+#rtg-section1, #rtg-section3 {
+	padding:0px 26px;
+}
+
+#rtg-section1left {
+	float:left;
+	width:230px;
+	height:200px;
+}
+
+#rtg-section1right {
+	float:left;
+	width:428px;
+}
+
+#rtg-section2 {
+	background-color:#f1f2f2;
+	padding:8px 26px 25px 26px;
+	margin-top:25px;
+}
+
+#rtg-section2left {
+	float:left;
+	width:448px;
+}
+
+#rtg-section2right {
+	float:left;
+	width:210px;
+	height:200px;
+}
+
+
+#section1_block1, #section1_block2, #section1_block3, #section1_block4 {
+	width:658px;
+	height:155px;
+}
+
+#section2_block1, #section2_block2, #section2_block3 {
+	width:658px;
+	height:130px;
+}
+
+#section3_block1, #section3_block2, #section3_block3, #section3_block4 {
+	width:658px;
+	height:185px;
+}
+
+#rtg-footer {
+	height:70px;
+	background-color:#0072c6;
+	padding:20px 26px;
+	margin-top:30px;
+	color:#ffffff;
+}
+
+#rtg-footer a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#rtg-footer a:hover {
+	text-decoration:underline;
+}
+
+#rtg-contact1, #rtg-contact2 {
+	width:250px;
+	float:left;
+}
+
+.rtg-h1title, .rtg-h2title {
+	font-weight: 100;
+	color: #404041;
+	font-size: 20px;
+}
+
+.imgspace {
+	float:left;
+	vertical-align:text-top;
+	padding-right:7px;
+}
+
+#rtg-section1 p {
+	color: #a92323;
+}
