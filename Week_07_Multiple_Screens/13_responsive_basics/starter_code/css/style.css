@@ -1,0 +1,112 @@
+/*UNFINISHED!!!*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 768px;
+    max-width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+header {
+	width: 200px;
+	height: 100px;
+	margin: 20px 0;
+	float: left;
+}
+
+footer {
+	height: 150px;
+	margin: 20px 0;
+}
+
+.nav-1 {
+	float: left;
+	height: 40px;
+	width: 90px;
+	margin: 50px 10px 0 98px;
+}
+
+.nav-2 { 
+	float: left;
+	height: 40px;
+	width: 90px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-3 { 
+	float: left;
+	height: 40px;
+	width: 90px;
+	margin: 50px 10px 0 0;
+}
+
+.nav-4 { 
+	float: left;
+	height: 40px;
+	width: 90px;
+	margin: 50px 0 0 0;
+}
+
+.row-2-section {
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.row-2-section:nth-child(2) {
+	margin: 0 20px;
+}
+
+.row-3-left {
+	height: 200px;
+	width: 242px;
+	float: left;
+}
+
+.row-3-middle {
+	height: 200px;
+	width: 242px;
+	float: left;
+}
+
+.row-3-right {
+	height: 200px;
+	width: 242px;
+	float: left;
+}
+
+
+
+.gray { 
+background-color: #ccc; 
+border: 1px solid #808080; 
+} 
+
+@media screen and (max-width: 992px){
+	.nav1, .nav2, .nav3, .nav4 {
+		width: 80px;
+	}
+	.row-2-section, .row-3-left, .row-3-middle, .row-3-right {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width:768px){
+	nav {
+		display: none;
+	}
+
