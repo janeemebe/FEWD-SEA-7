@@ -8,6 +8,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		var newEntry = $("#newEntry").val();
 		newEntry = parseFloat(newEntry);
+		console.log("added");
 		$('#entries').append('<tr><td colspan = "2">' + (formatCurrency(newEntry)) + '</td></tr>');
 		total += newEntry;
 		$("#total").html(formatCurrency(total));

@@ -369,4 +369,39 @@ footer p {
   }
 }
 
+.form-row label {
+  display: inline-block;
+  width: 260px;
+  margin-right: 15px;
+}
 
+.form-radio>label{
+  width: 260px;
+  margin-right: 10px;
+}
+
+.form-radio label, .form-radio input {
+  float: left;
+}
+
+.form-item.register {
+  margin-bottom: 80px;
+}
+
+fieldset {
+  float: left;
+}
+
+.form-row input, .form-row select {
+  border: 0px solid;
+  display: inline-block;
+  width: 200px;
+  border-bottom: 1px solid;
+}
+
+.form-row, .form-item, .form-radio {
+margin-bottom: 10px;
+}
+/*input[name="*"]{
+  border: 15px solid black;
+}*/
