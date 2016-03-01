@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#slider-wrapper {
+			width: 2840px;
+			transform: translate3d(0,0,0);
+			transition: transform .5s ease-in-out;
+		}
+		.slider-content {
+			float: left;
+			width: 710px;
+			height: 455px;
+			white-space: normal;
+			background-repeat: no-repeat;
+		}
+
+		#slide-1 {
+			background: url(images/mission-critical.png);
+			background-size: cover;
+			}
+
+		#slide-2 {
+			background: url(images/deeper-insights.png);
+			background-size: cover;
+		}
+
+		#slide-3 {
+			background: url(images/hybrid-scenarios.png);
+			background-size: cover;
+		}
+
+		#slider-container {
+			width: 710px;
+			height: 455px;
+			overflow: hidden;
+		}
+		#slider-controls {
+			text-align: center;
+			width: 710px;
+		}
+
+		#slider-controls ul {
+			margin: 0px;
+			padding: 0px;
+			display: inline-block;
+			margin-top: 6px;
+		}
+
+		#slider-controls ul li {
+			float: left;
+			text-align: center;
+			margin: 10px;
+			list-style: none;
+			cursor: pointer;
+			background-color: #ccc;
+			padding: 8px;
+			border-radius: 50%;
+		}
+
+		#slider-controls ul li:hover {
+			background-color: #0072C6;
+		}
+
+		#slider-controls ul li.active {
+			background-color: #333;
+			color: #fff;
+			outline-width: 7px;
+		}
+
+		#slider-controls ul li.active:hover {
+			background-color: #484848;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div id="slider-container">
+		<div id="slider-wrapper">
+			<div id="slide-1" class="slider-content">
+			</div>
+			<div id="slide-2" class="slider-content">
+			</div>
+			<div id="slide-3" class="slider-content">
+			</div>
+		</div>
+	</div>
+	<div id="slider-controls">
+        <ul>
+          <a data-section=".section-1" href="#"><li class="slider-links" data-pos="0px"></li></a>
+          <li class="slider-links" data-pos="-710px"></li>
+          <li class="slider-links" data-pos="-1420px"></li>
+        </ul>
+      </div>
+
+      <script type="text/javascript">
+		var links = document.querySelectorAll(".slider-links");
+		var wrapper = document.querySelector("#slider-wrapper");
+		var activeLink = 0;
+		for (var i = 0; i < links.length; i++) {
+			var link = links[i];
+			link.addEventListener("click", setClickedItem, false);
+			link.itemID = i;
+		}
+			links[activeLink].classList.add("active");
+
+			function setClickedItem(e) {
+				removeActiveLinks();
+
+				var clickedLink = e.target;
+				activeLink = clickedLink.itemID;
+				changePosition(clickedLink);
+			}
+			function removeActiveLinks() {
+				for (var i = 0; i < links.length; i++) {
+					links[i].classList.remove("active");
+				}
+			}
+			function changePosition(link) {
+				var position = link.getAttribute("data-pos");
+				var translateValue = "translate3d(" + position + ", 0px, 0)";
+				wrapper.style[transformProperty] = translateValue;
+				link.classList.add("active");
+			}
+			var transforms = ["transform", "msTransform", "webkitTransform", "mozTransform", "oTransform"];
+			var transformProperty = getSupportedPropertyName(transforms);
+			function getSupportedPropertyName(properties) {
+				for (var i = 0; i < properties.length; i++) {
+					if (typeof document.body.style[properties[i]] != "undefined") {
+						return properties[i];
+						}
+					}
+				return null;
+				}
+	</script>
+</body>
+</html>

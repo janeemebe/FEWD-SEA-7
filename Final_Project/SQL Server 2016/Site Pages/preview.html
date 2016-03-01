@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta name="WebPartPageExpansion" content="full" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQL Server 2016</title>
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+<script type="text/javascript">
+  function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.href);
+    if (results == null) return "";
+    else return decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+  var firstName = unescape(getParameterByName('FirstName'));
+  var lastName = unescape(getParameterByName('LastName'));
+  var email = unescape(getParameterByName('Email'));
+  var phone = unescape(getParameterByName('Phone'));
+  var city = unescape(getParameterByName("City"));
+  var state = unescape(getParameterByName("State"));
+</script>
+
+</head>
+<body>
+  <div class="preview-header">Preview Customizations</div>
+  <div class="preview-text">Preview your customizations below. If everything looks good, click "Generate code" to get the script to add the web content to your own website or click "Go back to form" to edit your customizations.</div>
+  <div><button id="generate-code">Generate code</button></div>
+  <form id="my-form" name="myform"><textarea class="input-text no-display" name="inputtext"></textarea></form>
+  <div id="go-back-to-form"><button class="open-form"><a href="form.html">Go back to form</a></button></div>
+  <div id="rtg-container">
+      <div id="rtg-header">
+          <div class="rtg-header-text">
+                <h1>SQL Server 2016</h1>
+                <h3>The <span class="italic">biggest leap forward</span> in <span class="orange">Microsoft's data platform</span> <span class="italic">history</span></h3>
+          </div>
+      </div>
+      <div id="contact-us">
+      </div>
+      <div id="data-1">
+            <div class="section-headline">
+                <h2>What differentiates today's thriving organizations?</h2>
+            </div>
+            <div class="data-container clearfix">
+                <div class="answer-container">
+                  <div class="data-answer">Data.</div>
+                  <img src="images/data.png" />
+                </div>
+            </div>
+        </div>
+      <div id="data-2">
+            <div class="section-headline white">
+                <h2>The opportunity is bigger than you may think.</h2>
+            </div>
+            <div class="data-container clearfix">
+                <div class="answer-container">
+                  <div class="data-answer">$1.6T</div>
+                  <span class="data-dividend orange">of data dividend available to businesses that embrace data over the next four years.*</span>
+                </div>
+            </div>
+        </div>
+      <div id="pre-cta">
+            <div class="pre-cta-content clearfix">
+                <div class="pre-cta-text">
+                    <h2>Get deeper insight with SQL Server.</h2>
+                    <p>Take advantage of the data dividend opportunity by investing in a data platform that will bring the most value to your business. Find out how Microsoft provides a complete and secure end-to-end data platform solution to help you get a bigger return on your data.</p>
+                </div>
+            </div>
+        </div>
+        <div id="sticky-anchor"></div>
+        <div id="rtg-cta">
+          <div class="sticky-bar fullwidth">
+            <div class="cta-content clearfix">
+                <div class="email-cta">
+                    <img src="images/email-icon.png" />
+                </div>
+              <div class="email-text">
+                <span class="emphasis">I'd like to set up time with you!</span> <br />
+                <script type="text/javascript">
+                  if (email) {
+                      document.write('Email me at <a id="cta-link" href="mailto:' + email + '">' + email + '</a>.');
+                      } else {
+                        document.write('Contact us for more information.');
+                      }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slider-container">
+<!--           <div class="left-arrow emphasis"><</div>
+          <div class="right-arrow emphasis">></div> -->
+          <div id="slider-wrapper">
+            <div id="slide-1" class="slider-content">
+              <div class="slider-image"><img src="images/mission-critical-icon.png" /></div>
+              <h2 class="slider-headline">Mission critical performance</h2>
+              <h3 class="slider-text">Get enhanced in-memory performance with up to 30x faster transactions, more than 100x faster queries and real-time operational analytics.</h3>
+            </div>
+            <div id="slide-2" class="slider-content">
+              <div class="slider-image"><img src="images/deeper-insights-icon.png"></div>
+              <h2 class="slider-headline">Deeper insights across data</h2>
+              <h3 class="slider-text">Gain insights through mobile BI reports and modernized paginated reports, as well as built-in advanced analytics for Big Data scenarios</h3>
+            </div>
+            <div id="slide-3" class="slider-content">
+              <div class="slider-image"><img src="images/hybrid-scenarios-icon.png"></div>
+              <h2 class="slider-headline">Breakthrough hybrid scenarios</h2>
+              <h3 class="slider-text">Get a consistent experience both on-premises and cloud with common development and management tools and common T-SQL.</h3>
+            </div>
+          </div>
+        </div>
+      <div id="slider-controls">
+        <ul>
+          <li class="slider-links active" data-pos="0px"></li>
+          <li class="slider-links" data-pos="-710px"></li>
+          <li class="slider-links" data-pos="-1420px"></li>
+        </ul>
+      </div>
+      <div id="whats-new">
+        <h2 class="section-headline">What's new in SQL Server BI?</h2>
+        <div class="whats-new-container clearfix">
+          <div class="tile">
+            <div class="tile-front">
+              <div class="tile-image"><img src="images/reporting-services.png" /></div>
+              <div class="tile-title">Reporting Services</div>
+              <div class="tile-button">Learn more</div>
+            </div>
+            <div class="tile-back">
+              <span class="back-intro-text">SQL Server Reporting Services (SSRS) offers a single, on-premises solution for deploying and managing reports, letting you:</span>
+              <ul>
+                <li>Create reports that are optimized for mobile devices and can be consumed on any device and form factor</li>
+                <li>Use the new web portal experience, which is built on HTML5 and optimized for modern web browsers</li>
+                <li>Design precisely paginated and formatted reports with modern design tools</li>
+              </ul>
+              <div class="go-back">< Back</div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile-front">
+              <div class="tile-image"><img src="images/analysis-services.png" /></div>
+              <div class="tile-title">Analysis Services</div>
+              <div class="tile-button">Learn more</div>
+            </div>
+            <div class="tile-back">
+              <span class="back-intro-text">SQL Server Analysis Services (SSAS) is an online analytical data engine that helps you transform complex data into a single model, making it easier to:</span>
+              <ul>
+                <li>Get analytical data for business reports and client applications such as Excel, Reporting Services reports, and other third-party BI tools</li>
+                <li>Securely manage larger data models &#150; both Multidimensional and Tabular</li>
+                <li>Transform complex schemas into a more business user-friendly environment to provide faster insights and increase user adoption</li>
+              </ul>
+              <div class="go-back">< Back</div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile-front">
+              <div class="tile-image"><img src="images/hybrid-bi.png" /></div>
+              <div class="tile-title">Hybrid BI</div>
+              <div class="tile-button">Learn more</div>
+            </div>
+            <div class="tile-back no-display">
+              <span class="back-intro-text">SQL Server 2016 enables you to connect Power BI to your on-premises Analysis Services models, giving you the option to:</span>
+              <ul>
+                <li>Utilize the rich toolset of Power BI without having to move those datasets to the cloud</li>
+                <li>Access on-premises data any way you'd like with scheduled refreshes and live connections</li>
+                <li>Leverage existing investments while still benefitting from the power of the cloud</li>
+              </ul>
+              <div class="go-back">< Back</div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile-front">
+              <div class="tile-image"><img src="images/sharepoint-support.png" /></div>
+              <div class="tile-title">SharePoint 2016 Support</div>
+              <div class="tile-button">Learn more</div>
+            </div>
+            <div class="tile-back no-display">
+                <span class="back-intro-text">SQL Server 2016 enables you to integrate SQL Server business intelligence and reporting into SharePoint 2016, allowing you to:</span>
+                <ul>
+                  <li>Configure Scheduled Data Refresh for Excel workbooks that utilize Power Query connections</li>
+                  <li>Access new Reporting Servces features &#150; including Treemaps and Sunburst charts, the new HTML renderer, plugin-free printing, and export to PowerPoint</li>
+                </ul>
+              <div class="go-back">< Back</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="rtg-footer">
+      <h2>Contact us today to learn more.</h2>
+      <div class="partner-info">
+        <script type="text/javascript">
+                  if (firstName) {
+                      document.write('<span class="emphasis font-125">' + firstName + ' </span>');
+                  }
+                  if (lastName) {
+                      document.write('<span class="emphasis font-125">' + lastName + '</span>' + '<br />');
+                  }
+                  if (city) {
+                      document.write(city + ', ');
+                  }
+                  if (state) {
+                      document.write(state + '<br />');
+                  }
+                  if (email) {
+                      document.write('<span class="emphasis">e: </span><a href="mailto:' + email + '">' + email + '</a>' + '<br />');
+                  }
+                  if (phone) {
+                      document.write('<span class="emphasis">p:</span> ' + phone + '<br />');
+                  }
+              </script>
+      </div>
+    </div>
+    <div id="rtg-footnotes">
+      <div class="footnotes-content clearfix">
+        <div class="footnotes-text">
+         *Data source: Microsoft & International Data Corporation (IDC), April 2014. IDC found that there are two categories of businesses: organizations that have taken a leadership position when it comes to data; and those that are not making best use of data. We learned that the leaders—those companies that embraced data—derived significantly more dividends from those investments in data—from increased revenue, improved productivity, and reduced costs. 
+        </div>
+        <div class="footnotes-logo">
+          <img src="images/microsoft-logo.png" />
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src='http://code.jquery.com/jquery-latest.min.js'></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
